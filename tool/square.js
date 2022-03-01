@@ -1,6 +1,8 @@
+import { getRGBA } from "./color.js"
+
 export default function write(ctx, color, width, height, x=0, y=0){
     console.log("Square added: " + color + " " + width + " by " + height)
-    ctx.strokeStyle = 'rgba(255,255,255,1)'
+    ctx.strokeStyle = getRGBA(color)
     ctx.beginPath()
     ctx.lineTo(x, y)
     ctx.lineTo(x + width, y)
