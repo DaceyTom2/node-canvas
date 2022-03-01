@@ -1,0 +1,23 @@
+{
+  "name": "node-canvas",
+  "version": "1.0.0",
+  "description": "An example of how node canvas can work",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaceyTom2/node-canvas.git"
+  },
+  "author": "daceytom2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaceyTom2/node-canvas/issues"
+  },
+  "homepage": "https://github.com/DaceyTom2/node-canvas#readme",
+  "dependencies": {
+    "canvas": "^2.9.0"
+  }
+}
